@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+
+div{
+    background-color: blanchedalmond;
+    height: auto;
+    width: 253px;
+    margin: auto;
+}
+
+btn{
+    margin: auto;
+    width: 50px;
+    justify-content: center;
+}
+
+
+

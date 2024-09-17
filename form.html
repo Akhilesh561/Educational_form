@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div class="abcd">
+        <form >
+            <div class="abc">
+        <label for="name" class="fir_name"> Full Name :</label>
+        <input type="text" id="name" placeholder="enter your Name"></div><br>
+        
+        <div class="abc"><label for="gmail"> E-mail :</label>
+        <input type="email" id="gmail" placeholder="enter your gmail"></div><br>
+        <div class="abc"><label for="mob_no">Mobile No :</label>
+        <input type="number" id="mob_no" placeholder="enter your mobile number"></div><br>
+        <div class="abc"><label for="age">Age :</label>
+        <input type="number" id="age" placeholder="enter the age"></div><br>
+
+        <!---Gender-->
+         <div class="abc"><label for="gender">Gender :</label>
+            <select name="genders" id="gender">
+                <option value="gender">Choose your Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select></div><br>
+
+        <!---Courses--->
+         <div class="abc"><label for="courses">Courses :</label>
+            <select name="courses" id="courses">
+                <option value="courses">Choose your courses</option>
+                <option value="java Full Stack">java Full Stack
+                    <!-- <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>JDBC</li>
+                    <li>Servelet</li>
+                    <li>Hybernet</li>
+                    <li>SpringBoot</li>
+                    <li>microservices</li>
+                    <li>SQL</li>
+                </ol> -->
+                </option>
+                <option value="python">python</option>
+                <option value="Frontend">Front End Developement</option>
+            </select>
+        </div>
+        <br>
+       
+       
+
+        <address>
+            <label for="address">Enter the Address<Address></Address></label>
+           <textarea name="address" id="" cols="30" rows="10">Enter the Address</textarea>
+        </address>
+
+        <div>
+            <button class="btn">Submit</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
